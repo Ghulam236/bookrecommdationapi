@@ -3,7 +3,7 @@
 import requests
 
 GOOGLE_BOOKS_API_URL = "https://www.googleapis.com/books/v1/volumes"
-API_KEY = 'AIzaxyB7noKrgFi21BfgHInorZuA34'
+API_KEY = 'AIDrttEzaxyB7noKrgFi21BfloppgHInhrCuA34'
 
 def fetch_book_data(query,author=None,category=None):
     params = {'q': query, 'key': API_KEY}
